@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "1562dedd-9b8c-4b2e-a56c-8259444e0c04",
+		"name": "Champions league",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add results Group",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"2:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"1:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"6:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"3:0\"\r\n    },\r\n  {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 4,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 4,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"3:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 5,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"2:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 5,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 6,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"2:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 6,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"3:4\"\r\n    }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/score/results",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"score",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add results 2 groups",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"2:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"1:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"6:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"3:0\"\r\n    },\r\n  {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 4,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 4,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"3:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 5,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"2:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 5,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 6,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"2:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 6,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"3:4\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Real Madrid\",\r\n        \"awayTeam\": \"Liverpul\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"2:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Bayern\",\r\n        \"awayTeam\": \"Zvezda\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Liverpul\",\r\n        \"awayTeam\": \"Bayern\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"2:0\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Zvezda\",\r\n        \"awayTeam\": \"Real Madrid\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"4:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Liverpul\",\r\n        \"awayTeam\": \"Zvezda\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Real Madrid\",\r\n        \"awayTeam\": \"Bayern\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/score/results",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"score",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add results partially",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"PSG\",\r\n        \"awayTeam\": \"Arsenal\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n     {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Basel\",\r\n        \"awayTeam\": \"Ludogorets\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Bayern\",\r\n        \"awayTeam\": \"Zvezda\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:5\"\r\n    },\r\n     {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"2:0\"\r\n    },\r\n      {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Ludogorets\",\r\n        \"awayTeam\": \"PSG\",\r\n        \"kickoffAt\": \"2017-09-28T20:45:00\",\r\n        \"score\": \"1:3\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/score/results",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"score",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit results",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 1,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Bayern\",\r\n        \"awayTeam\": \"Zvezda\",\r\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\r\n        \"score\": \"1:4\"\r\n    },\r\n     {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 2,\r\n        \"group\": \"A\",\r\n        \"homeTeam\": \"Arsenal\",\r\n        \"awayTeam\": \"Basel\",\r\n        \"kickoffAt\": \"2017-10-28T20:45:00\",\r\n        \"score\": \"2:3\"\r\n    },\r\n    {\r\n        \"leagueTitle\": \"Champions league 2016/17\",\r\n        \"matchday\": 3,\r\n        \"group\": \"B\",\r\n        \"homeTeam\": \"Real Madrid\",\r\n        \"awayTeam\": \"Bayern\",\r\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\r\n        \"score\": \"1:1\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/score/results",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"score",
+						"results"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/score/standings?matchday=2&groupNames=B,A",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"score",
+						"standings"
+					],
+					"query": [
+						{
+							"key": "matchday",
+							"value": "2",
+							"description": "If Integer matchday is null then standings for last matchday will be returned."
+						},
+						{
+							"key": "groupNames",
+							"value": "B,A",
+							"description": "contains name of groups with ,(comma) as delimiter (e.g. \"A,B,D\"). If groupNames is empty or null then standings for all groups will be returned"
+						}
+					]
+				},
+				"description": "parameter groupNames contains name of groups with ,(comma) as delimiter (e.g. \"A,B,D\"). If groupNames is empty or null then standings for all groups will be returned.\nIf Integer matchday is null then standings for last matchday will be returned."
+			},
+			"response": []
+		},
+		{
+			"name": "Get results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/score/scores?groupName=A&fromDate=2017-10-01T20:45:00Z&teamName=Arsenal&toDate=2017-12-11T20:45:00Z",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"score",
+						"scores"
+					],
+					"query": [
+						{
+							"key": "groupName",
+							"value": "A"
+						},
+						{
+							"key": "fromDate",
+							"value": "2017-10-01T20:45:00Z"
+						},
+						{
+							"key": "teamName",
+							"value": "Arsenal"
+						},
+						{
+							"key": "toDate",
+							"value": "2017-12-11T20:45:00Z"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
